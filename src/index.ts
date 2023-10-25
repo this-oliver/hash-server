@@ -3,7 +3,7 @@ import app from "./app";
 
 app.listen(PORT, function () {
 	console.log(`\nExpress server listening on port ${PORT} in ${NODE_ENV} mode`);
-	console.log(`Server: http://localhost:${PORT}/api/`);
+	console.log(`Server: http://localhost:${PORT}`);
 });
 
 export default app;

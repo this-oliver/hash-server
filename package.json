@@ -2,7 +2,7 @@
   "name": "hash-server",
   "description": "a server that listens for requests to hash passwords",
   "repository": "this-oliver/hash-server",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
