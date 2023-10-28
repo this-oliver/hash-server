@@ -21,23 +21,21 @@ pnpm install
 
 ## Getting Started
 
-### Building the docker image
-
 ```bash
+# build docker image
+
 docker build -t hash-server .
-```
 
-- `-t` is the tag name for the image
-- `.` is the path to the Dockerfile
+## - `-t` is the tag name for the image
+## - `.` is the path to the Dockerfile
 
-### Start the container from the image
+# run the docker image in a container
 
-```bash
 docker run -p 3000:3000 -d hash-server
-```
 
-- `-p` is the port mapping
-- `-d` is the detached mode
+## - `-p` is the port mapping
+## - `-d` is detached mode (runs container in the background)
+```
 
 ## Usage
 
